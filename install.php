@@ -320,18 +320,14 @@ Step 2 - Membuat Akses Router
 <td class="align-middle">IP</td><td><input class="form-control" autocomplete="off" type="text" name="ip" value="<?php echo $ip1;?>" placeholder="Ip/Host Mikrotik" required /></td>
 </tr>
 <tr>
-<td class="align-middle">Port</td><td><input class="form-control" autocomplete="off" type="text" name="port" value="<?php echo $port1;?>" placeholder="Port (default : 8728)" required /></td>
+<td class="align-middle">Username</td><td><input class="form-control" autocomplete="off" type="text" name="port" value="<?php echo $port1;?>" placeholder="Port (default : 8728)" required /></td>
 </tr>
 <tr>
-<td class="align-middle">Username</td><td><input class="form-control" autocomplete="off" type="text" name="user" value="<?php echo $user1;?>" placeholder="Username" required /></td>
-</tr>
-<tr>
-<td class="align-middle">Password</td><td>
-<div class="input-group input-group-flat">
-<input class="form-control" id="passUser" autocomplete="off" type="password" name="pass" value="<?php echo $pass1;?>" placeholder="Password" required />
+<td class="align-middle">Password</td>
+ <td><div class="input-group input-group-flat">
+<input class="form-control" id="passUser" autocomplete="off" type="password" name="user" value="<?php echo $user1;?>" placeholder="Password" required />
 <span class="input-group-btn btn btn-danger" title="Show/Hide Password" onclick="PassUser()"><i class="fa fa-eye"></i></span>
-</div>
-</td>
+</div></td>
 </tr>
 <?php if($konek!==__CONNECT){?> <tr>
 <td class="align-middle"></td><td>
